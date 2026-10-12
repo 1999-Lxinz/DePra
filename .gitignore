@@ -1,0 +1,4 @@
+release-assets/
+*.apk
+*.aab
+.DS_Store
