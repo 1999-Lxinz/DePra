@@ -2,6 +2,9 @@
 
 已创建仓库：公开 https://github.com/1999-Lxinz/DePra，私有 https://github.com/1999-Lxinz/DePra-Source。不要混用目录或仓库地址。APK放在两个包的release-assets中，该目录被Git忽略，文件仅用作Release附件。
 
+
+本次本地目录已初始化 Git（main）并完成首次提交，origin 已配置为上面对应仓库；不要重复执行 git init 或 remote add。推送状态由本次完成报告说明。
+
 ## 1. 上传仓库文件
 
 先登录本人 GitHub。可使用 GitHub Desktop：分别把 public-distribution、private-source 添加为本地仓库，提交文件，绑定对应仓库并 Push。私有源码必须确认远端仍为 Private。
