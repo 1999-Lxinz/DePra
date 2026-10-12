@@ -43,11 +43,11 @@ git push -u origin main
 
 1. 打开 https://github.com/1999-Lxinz/DePra，先确认main已有介绍文件。
 2. 点击 Releases → Draft a new release（首个版本也可能显示 Create a new release）。
-3. Choose a tag 输入 v0.3.3 并创建，Target 选 main。
-4. 标题写 DePra 0.3.3 测试版；描述复制公开目录 RELEASE_NOTES.md。
-5. 在二进制附件上传区域添加 release-assets/DePra-0.3.3.apk、SHA256SUMS.txt、PACKAGE_INFO.txt；不是把文件加入 Git 提交。
+3. Choose a tag 输入 v0.3.4 并创建，Target 选 main。
+4. 标题写 DePra 0.3.4 测试版；描述复制公开目录 RELEASE_NOTES.md。
+5. 在二进制附件上传区域添加 release-assets/DePra-0.3.4.apk、SHA256SUMS.txt、PACKAGE_INFO.txt；不是把文件加入 Git 提交。
 6. 勾选 This is a pre-release，先 Save draft 核对文件与说明，再 Publish release。
-7. 从 Release 的 Assets 点击 APK，复制实际下载链接。固定文件名与标签对应时应是 https://github.com/1999-Lxinz/DePra/releases/download/v0.3.3/DePra-0.3.3.apk。
+7. 从 Release 的 Assets 点击 APK，复制实际下载链接。固定文件名与标签对应时应是 https://github.com/1999-Lxinz/DePra/releases/download/v0.3.4/DePra-0.3.4.apk。
 8. README 已链接公开仓库的 Releases 页面，无需替换下载地址。新版本发布后，用户进入同一页面，在 Assets 下载对应 APK。
 
 不必在私有仓库再发布一次APK，私有Release要求访问权限，不能作为普通用户公开下载入口。公共README不提供私有源码下载。
@@ -56,13 +56,13 @@ git push -u origin main
 
 每次新包使用新版本/标签，递增versionCode，保留原应用签名。创建新的Release，上传对应APK与校验值，再改README下载链接。不要在同一标签下换掉不同内容的包；测试版继续标pre-release。
 
-GitHub自动生成的Source code(zip/tar.gz)是仓库文件，不是App安装包；请让用户下载你手工上传的.apk附件。此包仍为0.3.3手机测试版，发布不代表商店验收。公开APK也可能构成专利披露；若仍计划申请专利，应先完成评估。
+GitHub自动生成的Source code(zip/tar.gz)是仓库文件，不是App安装包；请让用户下载你手工上传的.apk附件。此包仍为0.3.4手机测试版，发布不代表商店验收。公开APK也可能构成专利披露；若仍计划申请专利，应先完成评估。
 
 官方说明：https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 
 ## 当前执行结果（2026-10-12）
 
-两个本地仓库已经初始化并推送 main，公开仓库仅包含说明与截图，私有仓库存放源码。官方测试 APK 已作为公开仓库 v0.3.3 的 Release 附件发布：
-https://github.com/1999-Lxinz/DePra/releases/tag/v0.3.3
+两个本地仓库已经初始化并推送 main，公开仓库仅包含说明与截图，私有仓库存放源码。官方测试 APK 已作为公开仓库 v0.3.4 的 Release 附件发布：
+https://github.com/1999-Lxinz/DePra/releases/tag/v0.3.4
 
 不要重复执行首次 git init 或 remote add。后续修改在对应目录 git add、git commit、git push 即可。APK继续作为Release附件，不进入Git提交。

@@ -55,12 +55,12 @@ DePra 来自 Deliberate Practice（刻意练习）。它面向英语、乐器、
 
 ## 下载与安装
 
-当前版本：**0.3.3 测试版**，Android versionCode 6，最低 Android 7.0。
+当前版本：**0.3.4 测试版**，Android versionCode 7，最低 Android 7.0。手机桌面图标下显示名称为 **刻意练习**。
 
 **[前往 GitHub Releases 下载 Android APK](https://github.com/1999-Lxinz/DePra/releases)**
 
 1. 打开 Releases 页面，选择需要的版本。
-2. 展开该版本的 **Assets（附件）**，下载以 `.apk` 结尾的安装包，例如 `DePra-0.3.3.apk`。
+2. 展开该版本的 **Assets（附件）**，下载以 `.apk` 结尾的安装包，例如 `DePra-0.3.4.apk`。
 3. 在 Android 手机上打开 APK，按系统提示允许本次安装并完成安装。
 
 `Source code (zip)` 和 `Source code (tar.gz)` 是仓库文件压缩包，不是手机安装包。若页面没有版本或 APK 附件，表示安装包尚未发布，请等待发布者上传。
