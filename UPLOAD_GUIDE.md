@@ -59,3 +59,10 @@ git push -u origin main
 GitHub自动生成的Source code(zip/tar.gz)是仓库文件，不是App安装包；请让用户下载你手工上传的.apk附件。此包仍为0.3.3手机测试版，发布不代表商店验收。公开APK也可能构成专利披露；若仍计划申请专利，应先完成评估。
 
 官方说明：https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+
+## 当前执行结果（2026-10-12）
+
+两个本地仓库已经初始化并推送 main，公开仓库仅包含说明与截图，私有仓库存放源码。官方测试 APK 已作为公开仓库 v0.3.3 的 Release 附件发布：
+https://github.com/1999-Lxinz/DePra/releases/tag/v0.3.3
+
+不要重复执行首次 git init 或 remote add。后续修改在对应目录 git add、git commit、git push 即可。APK继续作为Release附件，不进入Git提交。
